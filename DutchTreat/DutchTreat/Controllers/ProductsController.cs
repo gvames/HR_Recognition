@@ -11,7 +11,7 @@ namespace DutchTreat.Controllers
 {
     [Route("api/[Controller]")]
     [ApiController] //Asta va documeta controller-ul
-    [Produces("applicationb/json")]
+    [Produces("application/json")]
     public class ProductsController : Controller
     {
         private readonly IDutchRepository repo;

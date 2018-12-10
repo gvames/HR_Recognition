@@ -78,8 +78,11 @@ namespace DutchTreat.Controllers
         [Authorize]
         public IActionResult Shop()
         {
-            var results = repo.GetAllProducts();
-            return View(results.ToList());
+            // codul este comentat in scopul integrarii cu aplicatia angular
+            //var results = repo.GetAllProducts();
+            //return View(results.ToList());
+
+            return View();
         }
     }
 }
